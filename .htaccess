@@ -6,4 +6,6 @@ deny from 234.45.67.89
 
 deny from 123.45.67.89
 
+deny from 113.22.46.128
+
 allow from all
