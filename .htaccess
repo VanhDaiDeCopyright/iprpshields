@@ -1,0 +1,9 @@
+order allow,deny
+
+deny from 192.168.1.1
+
+deny from 234.45.67.89
+
+deny from 123.45.67.89
+
+allow from all
