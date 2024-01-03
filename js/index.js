@@ -6010,6 +6010,22 @@ document.addEventListener('DOMContentLoaded', function () {
 var overlay = document.getElementById("overlay");
 
 // Tạo phần tử div cho phần text
+var textDiv = document.createElement("div");
+textDiv.id = "text";
+
+// Tạo phần tử p cho dòng chữ "Hello, chào mừng đến với profile"
+var welcomeText = document.createElement("p");
+welcomeText.style.fontFamily = "Quicksand";
+welcomeText.style.fontSize = "20px";
+welcomeText.textContent = "Designed By Vminhdz =))";
+welcomeText.style.marginBottom = "10px"; // Khoảng cách dưới 10px
+
+
+// Tạo phần tử p cho dòng chữ "- Nhấn để tiếp tục -"
+var continueText = document.createElement("p");
+continueText.style.fontFamily = "Quicksand";
+continueText.style.fontSize = "15px";
+continueText.textContent = "- Click to continue -";
 
 
 
