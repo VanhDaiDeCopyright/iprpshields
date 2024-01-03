@@ -5892,7 +5892,7 @@ show_date_time();
 document.addEventListener('DOMContentLoaded', function () {
     var telegramDiv = document.querySelector('.Telegram');
     telegramDiv.addEventListener('click', function () {
-        window.open('https://t.me/Minhtricker23', '_blank');
+        window.open('https://t.me/VietAnh_Dev', '_blank');
     });
 });
 
@@ -5905,7 +5905,7 @@ document.addEventListener('DOMContentLoaded', function () {
 document.addEventListener('DOMContentLoaded', function () {
     var telegramDiv = document.querySelector('.Facebook');
     telegramDiv.addEventListener('click', function () {
-        window.open('https://www.facebook.com/petra.hlavackova.568', '_blank');
+        window.open('https://www.facebook.com/vietanh.iipr', '_blank');
     });
 });
 document.addEventListener('DOMContentLoaded', function () {
@@ -5929,7 +5929,7 @@ document.addEventListener('DOMContentLoaded', function () {
 document.addEventListener('DOMContentLoaded', function () {
     var telegramDiv = document.querySelector('.Zalo');
     telegramDiv.addEventListener('click', function () {
-        window.open('https://zalo.me/0345924478', '_blank');
+        window.open('https://zalo.me/03583356527', '_blank');
     });
 });
 
@@ -6014,18 +6014,6 @@ var textDiv = document.createElement("div");
 textDiv.id = "text";
 
 // Tạo phần tử p cho dòng chữ "Hello, chào mừng đến với profile"
-var welcomeText = document.createElement("p");
-welcomeText.style.fontFamily = "Quicksand";
-welcomeText.style.fontSize = "20px";
-welcomeText.textContent = "Designed By Vminhdz =))";
-welcomeText.style.marginBottom = "10px"; // Khoảng cách dưới 10px
-
-
-// Tạo phần tử p cho dòng chữ "- Nhấn để tiếp tục -"
-var continueText = document.createElement("p");
-continueText.style.fontFamily = "Quicksand";
-continueText.style.fontSize = "15px";
-continueText.textContent = "- Click to continue -";
 
 
 
@@ -6038,7 +6026,7 @@ overlay.appendChild(textDiv);
 
 // Thiết lập sự kiện click cho overlay
 overlay.addEventListener("click", function () {
-    // Ẩn overlay
+    // Ẩn overlayx`
     overlay.style.display = "none";
 
     // Thêm mã JavaScript của bạn để bắt đầu phát nhạc hoặc thực hiện các hành động khác ở đây
