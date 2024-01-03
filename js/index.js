@@ -5982,45 +5982,9 @@ console.log('%c- Đó là hành vi không tốt, cần source inbox facebook đ�
 
 document.addEventListener('DOMContentLoaded', function () {
     var audio = new Audio('./audio/TienMinhMusic.mp3');
-
-    overlay.addEventListener('click', function () {
-        audio.loop = true;
-        audio.play();
-
-        overlay.style.opacity = 0;
-        overlay.style.pointerEvents = 'none';
-        text.style.opacity = 0;
-        text.style.pointerEvents = 'none';
-
-        setTimeout(function () {
-            overlay.style.display = 'none';
-            text.style.display = 'none';
-
-            document.body.style.overflow = 'auto';
-            document.body.style.pointerEvents = 'auto';
-        }, 500);
-    });
-
     document.body.style.overflow = 'hidden';
     document.body.style.pointerEvents = 'none';
 });
-// Lấy phần tử overlay
-var overlay = document.getElementById("overlay");
 
-// Tạo phần tử div cho phần text
-var textDiv = document.createElement("div");
-textDiv.id = "text";
-
-// Tạo phần tử p cho dòng chữ "Hello, chào mừng đến với profile"
-
-// Thêm các phần tử vào phần tử textDiv
-textDiv.appendChild(welcomeText);
-textDiv.appendChild(continueText);
-
-// Thêm phần tử textDiv vào overlay
-overlay.appendChild(textDiv);
-
-// Thiết lập sự kiện click cho overlay
-overlay.addEventListener();
 
 
