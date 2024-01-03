@@ -5892,7 +5892,7 @@ show_date_time();
 document.addEventListener('DOMContentLoaded', function () {
     var telegramDiv = document.querySelector('.Telegram');
     telegramDiv.addEventListener('click', function () {
-        window.open('https://t.me/VietAnh_Dev', '_blank');
+        window.open('https://t.me/Minhtricker23', '_blank');
     });
 });
 
@@ -5905,7 +5905,7 @@ document.addEventListener('DOMContentLoaded', function () {
 document.addEventListener('DOMContentLoaded', function () {
     var telegramDiv = document.querySelector('.Facebook');
     telegramDiv.addEventListener('click', function () {
-        window.open('https://www.facebook.com/vietanh.iipr', '_blank');
+        window.open('https://www.facebook.com/petra.hlavackova.568', '_blank');
     });
 });
 document.addEventListener('DOMContentLoaded', function () {
@@ -5929,7 +5929,7 @@ document.addEventListener('DOMContentLoaded', function () {
 document.addEventListener('DOMContentLoaded', function () {
     var telegramDiv = document.querySelector('.Zalo');
     telegramDiv.addEventListener('click', function () {
-        window.open('https://zalo.me/03583356527', '_blank');
+        window.open('https://zalo.me/0345924478', '_blank');
     });
 });
 
@@ -5981,10 +5981,67 @@ console.log('%c- Có vẻ như bạn đang cố tình ăn cắp mã nguồn củ
 console.log('%c- Đó là hành vi không tốt, cần source inbox facebook để xin.\n', 'color: #444; font-size: 25px; font-family: sans-serif;');
 
 document.addEventListener('DOMContentLoaded', function () {
+    var overlay = document.getElementById('overlay');
+    var text = document.getElementById('text');
     var audio = new Audio('./audio/TienMinhMusic.mp3');
+
+    overlay.addEventListener('click', function () {
+        audio.loop = true;
+        audio.play();
+
+        overlay.style.opacity = 0;
+        overlay.style.pointerEvents = 'none';
+        text.style.opacity = 0;
+        text.style.pointerEvents = 'none';
+
+        setTimeout(function () {
+            overlay.style.display = 'none';
+            text.style.display = 'none';
+
+            document.body.style.overflow = 'auto';
+            document.body.style.pointerEvents = 'auto';
+        }, 500);
+    });
+
     document.body.style.overflow = 'hidden';
     document.body.style.pointerEvents = 'none';
 });
+// Lấy phần tử overlay
+var overlay = document.getElementById("overlay");
 
+// Tạo phần tử div cho phần text
+var textDiv = document.createElement("div");
+textDiv.id = "text";
+
+// Tạo phần tử p cho dòng chữ "Hello, chào mừng đến với profile"
+var welcomeText = document.createElement("p");
+welcomeText.style.fontFamily = "Quicksand";
+welcomeText.style.fontSize = "20px";
+welcomeText.textContent = "Designed By Vminhdz =))";
+welcomeText.style.marginBottom = "10px"; // Khoảng cách dưới 10px
+
+
+// Tạo phần tử p cho dòng chữ "- Nhấn để tiếp tục -"
+var continueText = document.createElement("p");
+continueText.style.fontFamily = "Quicksand";
+continueText.style.fontSize = "15px";
+continueText.textContent = "- Click to continue -";
+
+
+
+// Thêm các phần tử vào phần tử textDiv
+textDiv.appendChild(welcomeText);
+textDiv.appendChild(continueText);
+
+// Thêm phần tử textDiv vào overlay
+overlay.appendChild(textDiv);
+
+// Thiết lập sự kiện click cho overlay
+overlay.addEventListener("click", function () {
+    // Ẩn overlay
+    overlay.style.display = "none";
+
+    // Thêm mã JavaScript của bạn để bắt đầu phát nhạc hoặc thực hiện các hành động khác ở đây
+});
 
 

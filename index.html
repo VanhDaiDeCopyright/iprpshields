@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="monetag" content="4ccb4741c04ba885cf9b8e1c3d1fd59a">
   <link rel="shortcut icon" href="./img/icon.ico" type="image/x-icon">
-  <title>Việt Anh</title>
+  <title>Ma Văn Minh</title>
   <link rel="stylesheet" href="./css/index.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
   <link rel="stylesheet"
@@ -24,6 +24,8 @@
 
 <body>
   <div class="border">
+<div id="overlay">
+  </div>
   <div class="some-element">
     <!-- ===== Navigation Bar ===== -->
     <div class="BlurWebs">
@@ -34,10 +36,10 @@
       </div>
       <br />
       <p align="center">
-        <img class="Blob" src="/./img/avt.jpg" width="120" height="120" alt="Việt Anh">
+        <img class="Blob" src="/./img/avt.jpg" width="120" height="120" alt="TienMinh">
       </p>
-      <h2 class="NameFtViệt Anh">
-        <div id="userName" style="font-family: 'Pattaya';font-size: 26px;"> Việt Anh <img
+      <h2 class="NameFtMa Van Minh">
+        <div id="userName" style="font-family: 'Pattaya';font-size: 26px;"> Ma Văn Minh <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Twitter_Verified_Badge.svg/512px-Twitter_Verified_Badge.svg.png"
             width="19" height="19" alt="Tích Xanh">
         </div>
@@ -45,7 +47,7 @@
       <h2 class="TieuSu" style="font-family: 'Quicksand';"> Hi, I'm a Developer <br />I like website design <br></h2>
       <br />
 
-      <strong style="color: rgb(255, 0, 0); font-size: 16px; font-family: 'Quicksand';"> Thời Gian Tạo:&ensp;</strong>
+      <strong style="color: rgb(255, 0, 0); font-size: 16px; font-family: 'Quicksand';"> Date created:&ensp;</strong>
 
       <span style="color: rgb(0, 240, 120);
         animation: colorRotate 2.5s linear 0s infinite;
@@ -73,12 +75,37 @@
       <ul class="icons">
         <br />
         <div class="MangXaHoiFtTienMinh">
-          <u style="font-size: 25px;" class="NameFtTienMinh">Liên Hệ Công Việc</u>
+          <u style="font-size: 25px;" class="NameFtTienMinh">Social Network</u>
           <br />
           <br>
+          <a id="Tiktok" onClick="Tiktok()">
+            <div class="Tiktok">
+              <i class="bi bi-tiktok">&nbsp;</i> Tiktok
+            </div>
+          </a>
+          
+          <br />
           <a id="Facebook" onClick="Facebook()">
             <div class="Facebook">
               <i class="bi bi-facebook">&nbsp;</i> Facebook
+            </div>
+          </a>
+          <br>
+          <a id="Facebook" onClick="Facebook()">
+            <div class="Facebook">
+              <i class="bi bi-instagram">&nbsp;</i> Instagram
+            </div>
+          </a>
+          <br />
+          <a id="Youtube" onClick="Youtube()">
+            <div class="Youtube">
+              <i class='bi bi-youtube'>&nbsp; </i> Youtube
+            </div>
+          </a>
+          <br>
+          <a id="Github" onClick="Github()">
+            <div class="Github">
+              <i class="bi bi-github">&nbsp;</i> Github
             </div>
           </a>
           <br />
@@ -103,7 +130,7 @@
         <div class="row">
           <skills class="col-12">
             <br>
-            <u style="font-size: 25px;" class="NameFtTienMinh"> Kỹ Năng <br>
+            <u style="font-size: 25px;" class="NameFtTienMinh"> Skill Language <br>
             </u>
 
           </skills>
@@ -112,9 +139,31 @@
       <div class="col-lg-6 col-12">
         <div class="skill-box">
           <div class="skill">
-            <div class="skill-name">Vụt Bản Quyền</div>
+            <div class="skill-name">HTML/CSS</div>
             <div class="skill-bar">
-              <div class="skill-per color1"  style="width: 99%;"></div>
+              <div class="skill-per color1"  style="width: 80%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-12">
+        <div class="skill-box">
+          <div class="skill">
+            <div class="skill-name">Python</div>
+            <div class="skill-bar">
+              <div class="skill-per color4" style="width: 70%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">C/C++</div>
+            <div class="skill-bar">
+              <div class="skill-per color2" style="width: 60%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">Javascript</div>
+            <div class="skill-bar">
+              <div class="skill-per color3" style="width: 20%;"></div>
             </div>
           </div>
         </div>
@@ -137,12 +186,12 @@
     <!--<h2 class="NameFt"Vminhdzs1">About Me</h2>-->
     <footer class="Cuoi Trang">
       <p class="VminhdzFtCopyright">
-        <span class="rainbow italic" class="copyright"> <a style="text-decoration: none;" class="copyright"
-            href="https://www.facebook.com/vietanh.iipr">
-            <font class="rainbow" color="white"> ©Việt Anh</font>
+        <span class="rainbow italic" class="copyright">Created By <a style="text-decoration: none;" class="copyright"
+            href="https://www.facebook.com/petra.hlavackova.568">
+            <font class="rainbow" color="white"> Ma Văn Minh</font>
           </a>
           <br />
-          <strong>All rights reserved </strong>
+          <strong>All rights reserved © 2023 </strong>
         </span>
     </footer>
   </div>
