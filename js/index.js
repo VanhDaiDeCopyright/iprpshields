@@ -5987,7 +5987,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     overlay.addEventListener('click', function () {
         audio.loop = true;
-        audio.play();
+        audio.play = 'auto'();
 
         overlay.style.opacity = 0;
         overlay.style.pointerEvents = 'none';
