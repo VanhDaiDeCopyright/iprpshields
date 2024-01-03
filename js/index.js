@@ -6015,8 +6015,6 @@ textDiv.id = "text";
 
 // Tạo phần tử p cho dòng chữ "Hello, chào mừng đến với profile"
 
-
-
 // Thêm các phần tử vào phần tử textDiv
 textDiv.appendChild(welcomeText);
 textDiv.appendChild(continueText);
