@@ -5981,8 +5981,6 @@ console.log('%c- Có vẻ như bạn đang cố tình ăn cắp mã nguồn củ
 console.log('%c- Đó là hành vi không tốt, cần source inbox facebook để xin.\n', 'color: #444; font-size: 25px; font-family: sans-serif;');
 
 document.addEventListener('DOMContentLoaded', function () {
-    var overlay = document.getElementById('overlay');
-    var text = document.getElementById('text');
     var audio = new Audio('./audio/TienMinhMusic.mp3');
 
     overlay.addEventListener('click', function () {
