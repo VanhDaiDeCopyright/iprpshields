@@ -6023,11 +6023,6 @@ textDiv.appendChild(continueText);
 overlay.appendChild(textDiv);
 
 // Thiết lập sự kiện click cho overlay
-overlay.addEventListener("click", function () {
-    // Ẩn overlayx`
-    overlay.style.display = "none";
-
-    // Thêm mã JavaScript của bạn để bắt đầu phát nhạc hoặc thực hiện các hành động khác ở đây
-});
+overlay.addEventListener();
 
 
