@@ -59,9 +59,13 @@ span {
   animation: my 700ms infinite;
 }
 
-footer{
-  background-color:#111;
-  text-align: end;
-  padding:39px;
-  font-size:15px;
-}
+img {
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  width: 250px;
+  }
