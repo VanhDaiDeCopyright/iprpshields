@@ -46,8 +46,14 @@ span {
 .test {
   background: #111;
   color: #f00;
-        font-size:20px;
-        font-weight:bold;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size:20px;
+  font-weight:bold;
   -webkit-animation: my 700ms infinite;
   -moz-animation: my 700ms infinite; 
   -o-animation: my 700ms infinite; 
