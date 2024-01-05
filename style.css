@@ -25,6 +25,10 @@ span {
 }
 p {
   color: #f00;
+  font-family: Consolas, Courier, monospace;
+  font-size: 30px;
+  height: 100%;
+
 }
 @-webkit-keyframes my {
   0% { color: #f00; } 
