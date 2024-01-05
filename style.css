@@ -25,5 +25,33 @@ span {
 }
 p {
   color: #f00;
-  text-shadow: 0px 0px 10px #f00;
+}
+@-webkit-keyframes my {
+  0% { color: #f00; } 
+  50% { color: #fff;  } 
+  100% { color: #f00;  } 
+}
+@-moz-keyframes my { 
+  0% { color: #f00;  } 
+  50% { color: #fff;  }
+  100% { color: #f00;  } 
+}
+@-o-keyframes my { 
+  0% { color: #f00; } 
+  50% { color: #fff; } 
+  100% { color: #f00;  } 
+}
+@keyframes my { 
+  0% { color: #f00;  } 
+  50% { color: #fff;  }
+  100% { color: #f00;  } 
+} 
+.test {
+        background:#3d3d3d;
+        font-size:24px;
+        font-weight:bold;
+  -webkit-animation: my 700ms infinite;
+  -moz-animation: my 700ms infinite; 
+  -o-animation: my 700ms infinite; 
+  animation: my 700ms infinite;
 }
