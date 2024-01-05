@@ -48,8 +48,8 @@ span {
   100% { color: #f00;  } 
 } 
 .test {
-        background:#3d3d3d;
-        font-size:24px;
+  background: #111;
+        font-size:20px;
         font-weight:bold;
   -webkit-animation: my 700ms infinite;
   -moz-animation: my 700ms infinite; 
