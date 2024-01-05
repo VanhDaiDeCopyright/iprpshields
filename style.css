@@ -23,3 +23,7 @@ span {
   display: inline-block;
   padding: 0 10px;
 }
+p {
+  color: #f00;
+  text-shadow: 0px 0px 10px #f00;
+}
