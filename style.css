@@ -23,10 +23,6 @@ span {
   display: inline-block;
   padding: 0 10px;
 }
-.test {
-  color: #f00;
-  font-size: 32px;
-}
 @-webkit-keyframes my {
   0% { color: #f00; } 
   50% { color: #fff;  } 
@@ -49,6 +45,7 @@ span {
 } 
 .test {
   background: #111;
+  color: #f00;
         font-size:20px;
         font-weight:bold;
   -webkit-animation: my 700ms infinite;
